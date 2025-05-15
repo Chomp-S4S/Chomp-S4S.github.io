@@ -1,0 +1,19 @@
+/* Import Alexandria font from Google Fonts (bold weight) */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@700&display=swap');
+
+/* Apply Alexandria Bold to all text elements */
+* {
+  font-family: 'Alexandria', sans-serif;
+  font-weight: 700; /* bald */
+}
+
+hr {
+    background-color: #007BFF; /* bleu */
+    height: 3px;
+    border: none;
+}
+/* Make all images rounded (circular if square :P) */
+img {
+  border-radius: 5%;
+  object-fit: cover;
+}
